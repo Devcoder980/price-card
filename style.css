@@ -1,0 +1,125 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  main {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: #e6eff6;
+   
+  }
+
+  .box {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+    border-radius: 15px 15px 0px 0px;
+
+  }
+
+  .box2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 0% 0% 5% 5%;
+  }
+
+  .continer {
+    width: 41%;
+    border-radius: 12px;
+    margin: 14% 0%;
+  }
+
+  input {
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    border: none;
+    height: 42px;
+    margin: 13% 0%;
+  }
+
+  .second {
+    background-color: hsl(179deg 61% 44%);
+    padding: 1% 10%;
+    color: white;
+    border-radius: 0% 0% 0% 5%;
+    
+  }
+
+  .third {
+    background-color: #4abebd;
+    padding: 1% 21% 18% 12%;
+    border-radius: 0% 0% 5% 0%;
+  }
+
+  .first {
+    background-color: white;
+    padding: 2% 6%;
+    border-radius: 5% 5% 0% 0%;
+  }
+
+  h2 {
+    font-weight: bold;
+    color: #52aaaa;
+  }
+
+  label {
+    color: hsl(71, 73%, 54%);
+    font-size: 1.2em;
+  }
+
+  .first-para {
+    font-size: 1em;
+    color: #b2aeae;
+  }
+
+  h5 {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    color: white;
+  }
+
+  p {
+    color: #d1e4e0;
+    font-weight: 600;
+   
+  }
+
+  span {
+    font-size: x-large;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+  }
+  #para2{
+    margin: 0px;
+  }
+  #para3{
+    color: #afe0e0;
+  }
+  @media screen and (max-width:900px) {
+    .box2{
+      grid-template-columns: auto;
+    }
+    .continer{
+      width: 86%;
+    }
+    .second{
+      border-radius: 0% 0% 0% 0%;
+    }
+    .third{
+      border-radius: 0% 0% 5% 5%;
+    }
+  }
